@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="ball_red">
+    <pose>0 0 3.0 0 0 0</pose>
+    <static>true</static>
+    <link name="link">
+      <pose>0 0 0 1.57 0 1.57</pose>
+      <visual name="visual">
+          <pose>-0.15 0 -0.05 0 0 0</pose>
+          <geometry>
+            <sphere>
+              <radius>.05</radius>
+            </sphere>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Red</name>
+            </script>
+          </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+<node name="image_converter" pkg="vision" type="image_converter" output="screen">
+ launch -prefix="xterm -e gdb --args"></node>
+</launch>
